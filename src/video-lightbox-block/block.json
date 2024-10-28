@@ -1,0 +1,57 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "awesome-lightbox/video-lightbox-block",
+	"version": "0.1.0",
+	"title": "Awesome Video Lightbox",
+	"category": "awesome-lightbox-category",
+	"icon": "format-video",
+	"description": "This plugin is allow to create the optimized video lightbox block.",
+	"supports": {
+		"html": true
+	},
+	"attributes": {
+         "mediaSrc": {
+      "type": "string",
+      "default": ""
+    },
+    "altText": {
+      "type": "string",
+      "default": "Video Lightbox"
+    },
+    "width": {
+      "type": "number",
+      "default": 300
+    },
+    "height": {
+      "type": "number",
+      "default": 200
+    },
+    "autoplay": {
+      "type": "boolean",
+      "default": false
+    },
+    "loop": {
+      "type": "boolean",
+      "default": false
+    },
+    "manualUrl": {
+      "type": "string",
+      "default": ""
+    },
+  "posterSrc": {
+      "type": "string",
+      "default": ""
+    },
+    "posterImage": {
+      "type": "string",
+      "default": ""
+    }
+    
+	},
+	"textdomain": "awesome-lightbox",
+	"editorScript": "file:./index.js",
+  "script": "file:./script.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

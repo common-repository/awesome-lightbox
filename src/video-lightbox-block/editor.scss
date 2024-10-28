@@ -1,0 +1,31 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-awesome-lightbox {
+	border: 1px dotted #f00;
+}
+.wp-block-awesome-lightbox-video-lightbox-block {
+	position: relative;
+}
+.video-svg-btn {
+	position: absolute;
+	border: 7px solid #AD9966;
+	border-radius: 100px;
+	width: 100px;
+	height: 100px;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+	top: 31%;
+}
+
+@media (max-width: 967px) {
+	.video-svg-btn {
+		top: 31%;
+		max-width: 50px;
+		max-height: 50px;
+	}
+}
